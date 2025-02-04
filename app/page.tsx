@@ -20,7 +20,7 @@ export default function Home() {
         </section>
       </main>
       <footer className="py-4 mt-8 border-t">
-        <p className="text-center text-gray-500">&copy; 2023 ruizTechServices. All rights reserved.</p>
+        <p className="text-center text-gray-500">&copy; {new Date().getFullYear()} ruizTechServices. All rights reserved.</p>
       </footer>
     </div>
   );
